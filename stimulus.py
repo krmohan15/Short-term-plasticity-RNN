@@ -9,7 +9,7 @@ class Stimulus:
 
         # generate tuning functions
         self.motion_tuning, self.fix_tuning, self.rule_tuning = self.create_tuning_functions()
-
+        self.spatial_tuning=self.create_spatial_tuning_function()
 
     def generate_trial(self):
 
